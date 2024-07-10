@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.top-bg {
+    background-color: #253956;
+    height: 80vh;
+}
+
+.top-bg .navbar .head {
+    font-size: 20px;
+}
+
+.top-bg .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 8%;
+    padding-right: 15%;
+    padding-top: 4%;
+}
+
+.top-bg .navbar .navbar-menu ul {
+    display: flex;
+    gap: 20%;
+}
+
+.top-bg .navbar .navbar-menu ul li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.top-bg .navbar .navbar-menu ul li:hover {
+    list-style-type: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(111, 255, 0);
+    transform: scale(1.3);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.top-bg .navbar h3 {
+    font-size: 25px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding-left: 8%;
+    padding-right: 9%;
+    padding-top: 8%;
+    color: white;
+    font-size: 18px;
+}
+
+.main img {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    transition: 0.6s;
+    filter: drop-shadow(5px 5px 10px rgb(255, 160, 45));
+}
+
+.main img:hover {
+    height: 210px;
+    width: 210px;
+    border-radius: 50%;
+    border: 3px solid orange;
+    transition: 0.6s;
+    transform: scale(1.1);
+    filter: drop-shadow(5px 5px 10px rgb(111, 255, 0));
+}
+
+.main span {
+    color: orange;
+}
+
+.main p span {
+    color: rgb(111, 255, 0);
+    font-weight: 600;
+}
+
+.main p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main button {
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    padding: 6px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.5s;
+    filter: drop-shadow(5px 5px 10px rgb(255, 255, 255));
+}
+
+.main button:hover {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 6px;
+    width: 180px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgb(111, 255, 0);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.s;
+
+}
+
+/* SECOND PHASE*/
+
+.second {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    gap: 5%;
+}
+
+.second h1 {
+    font-size: 35px;
+    color: #253956;
+}
+
+.second img {
+    height: 320px;
+    width: 240px;
+    border-radius: 5px;
+    border: 3px solid#253956;
+    transition: 0.6s;
+    filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+}
+
+.second img:hover {
+    height: 320px;
+    width: 240px;
+    border-radius: 5px;
+    border: 3px solid#253956;
+    transform: scale(1.1);
+    transition: 0.6s;
+    filter: drop-shadow(1px 1px 5px rgb(255, 0, 0));
+}
+
+.second p {
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.second p span {
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+}
+
+.second button {
+    background-color: #0e1726;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 6px;
+    width: 150px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: 0.5s;
+    filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+}
+
+.second button:hover {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 6px;
+    width: 150px;
+    border: px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* THIRD PHASE*/
+
+.third {
+    background-color: #253956;
+    height: 100%;
+    text-align: center;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+
+.third h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.third h3 span {
+    color: rgb(255, 166, 0);
+}
+
+.expert-sec {
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+}
+
+.expert-sec img {
+    width: 260px;
+    height: 145px;
+    border-radius: 5px;
+    transition: 0.5s;
+    filter: drop-shadow(2px 2px 5px rgb(200, 55, 55));
+
+}
+
+.expert-sec img:hover {
+    width: 260px;
+    height: 145px;
+    border-radius: 5px;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 10px rgb(123, 255, 0));
+
+}
+
+.footer {
+    background-image: url(product-banner_fixed_income\ 1.png);
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+
+}
+
+.footer .social-media {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    transition: 0.5s;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 5px rgb(255, 253, 253));
+
+}
+
+.footer .social-media:hover {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    transform: scale(1.1);
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+.footer p span {
+    color: rgb(255, 162, 0);
+    font-weight: 600;
+}
+
+.footer p {
+    font-size: 17px;
+    padding-top: 5px;
+}
+
+.copyright {
+    background-color: #0e1726;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
